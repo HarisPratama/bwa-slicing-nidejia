@@ -32,7 +32,7 @@ const categories = [
         img: './assets/microscope.svg'
     },
     {
-        title: 'Apartmen',
+        title: 'Apartment',
         count: '18,394',
         img: './assets/buildings-apartment.svg'
     },
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     categories.map((category) => {
         const block = document.createElement('div');
-        block.className = "bg-tertiary-black rounded-[20px] flex gap-[6px] items-center px-[20px] py-[25px]";
+        block.className = "bg-tertiary-black rounded-[20px] flex gap-[16px] items-center px-[20px] py-[25px]";
 
         const img = document.createElement('img');
         img.src = category.img;
