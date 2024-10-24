@@ -34,7 +34,7 @@ const categories = [
     {
         title: 'Apartmen',
         count: '18,394',
-        img: './assets/buildings-apartmen.svg'
+        img: './assets/buildings-apartment.svg'
     },
     {
         title: 'Nearby City',
