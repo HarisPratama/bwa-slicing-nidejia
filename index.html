@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="./script.js"></script>
+</head>
+<body class="bg-black p-0 m-0">
+    <div class="">
+        <!-- nav -->
+        <div class="hero-image h-screen">
+            <div class="relative z-50 mx-5 lg:mx-[75px] mt-[30px] flex flex-col justify-between h-full">
+                <nav class="h-24 bg-primary-black p-[30px] rounded-[20px] flex justify-between items-center">
+                    <img src="./assets/logo.svg" alt="logo nidejia">
+                    <div>
+                        <ul class="text-white text-base flex gap-30px poppins-semibold">
+                            <li class="cursor-pointer">Featured</li>
+                            <li class="cursor-pointer">Categories</li>
+                            <li class="cursor-pointer">Testimonials</li>
+                            <li class="cursor-pointer">About</li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-3">
+                        <button class="bg-primary-gray nav-btn text-white font-semibold rounded-full flex items-center justify-center">Sign In</button>
+                        <button class="bg-primary-yellow nav-btn text-black font-semibold rounded-full flex items-center justify-center">Sign Up</button>
+                    </div>
+                </nav>
+                <div class="flex">
+                    <div class="basis-1/2 text-white flex flex-col">
+                        <h1 class="text-[55px] poppins-bold">Find Glorious Living And Loving Space</h1>
+                        <h5 class="text-white mt-2.5 text-lg poppins-regular leading-8 ">Dolor house comfortable si amet with cheap <br> price that also lorem when you need grow.</h5>
+                        <div class="mt-50px">
+                            <div class="h-16 w-[555px] bg-primary-black rounded-full flex overflow-hidden">
+                                <input class="h-full w-full bg-transparent pl-7 focus:outline-none" type="text" placeholder="Search by city or country...">
+                                <button class="w-[155px] h-full bg-primary-yellow color-secondary-black poppins-semibold text-xl">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basis-1/2"></div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="mx-5 lg:mx-[75px] z-50 relative -mt-4">
+            <div class="flex justify-between items-center h-32 bg-primary-black rounded-2xl px-12 py-7">
+    
+                <div class="flex items-center gap-4">
+                    <div class="w-[70px] h-[70px] bg-primary-yellow rounded-full flex justify-center items-center">
+                        <img src="./assets/house-2.svg" alt="">
+                    </div>
+                    <div class="text-white">
+                        <p class="text-[28px] poppins-bold ">380M</p>
+                        <p class="color-secondary-gray text-base poppins-regular">Kos Available</p>
+                    </div>
+                </div>
+    
+                <div class="h-full w-px bg-[#353535]"></div>
+                
+                <div class="flex items-center gap-4">
+                    <div class="w-[70px] h-[70px] bg-primary-yellow rounded-full flex justify-center items-center">
+                        <img src="./assets/profile-2user.svg" alt="">
+                    </div>
+                    <div class="text-white">
+                        <p class="text-[28px] poppins-bold ">9/10</p>
+                        <p class="color-secondary-gray text-base poppins-regular">People Happy</p>
+                    </div>
+                </div>
+    
+                <div class="h-full w-px bg-[#353535]"></div>
+    
+                <div class="flex items-center gap-4">
+                    <div class="w-[70px] h-[70px] bg-primary-yellow rounded-full flex justify-center items-center">
+                        <img src="./assets/security-user.svg" alt="">
+                    </div>
+                    <div class="text-white">
+                        <p class="text-[28px] poppins-bold ">100%</p>
+                        <p class="color-secondary-gray text-base poppins-regular">High Security</p>
+                    </div>
+                </div>
+    
+                <div class="h-full w-px bg-[#353535]"></div>
+    
+                <div class="flex items-center gap-4">
+                    <div class="w-[70px] h-[70px] bg-primary-yellow rounded-full flex justify-center items-center">
+                        <img src="./assets/global.svg" alt="">
+                    </div>
+                    <div class="text-white">
+                        <p class="text-[28px] poppins-bold ">183</p>
+                        <p class="color-secondary-gray text-base poppins-regular">Countries</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="mt-9 pb-[100px]">
+            <div class="pt-16 mx-5 lg:mx-24">
+                <div class="text-center">
+                    <h3 class="text-white poppins-bold text-[28px]">Our Latest Deals</h3>
+                    <h5 class="color-secondary-gray poppins-regular text-lg">Explore the beauty of architecture and living love</h5>
+                </div>
+            </div>
+
+            <div class="mt-[30px] mx-5 lg:ml-[50px] lg:mr-[75px]">
+                <div class="relative w-full h-full bg-black mx-auto overflow-hidden rounded-3xl">
+                    <div class="flex z-0 gap-[30px] h-full transition-transform duration-500 ease-out px-[25px] m-0 z-10" id="multi-item-slider">
+                      <div class="w-1/4 flex-shrink-0 relative slider-item">
+                        <img src="./assets/slide-1.png" height="350px" alt="Item 1" class="w-full rounded-3xl">
+                        <div class="absolute bottom-0 left-0 w-full text-white z-50">
+                            <div class="flex justify-between items-center px-[20px]">
+                                <div>
+                                    <p class="text-xl poppins-bold">De Flecce</p>
+                                    <p class="text-sm poppins-regular">$47,298/mo</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="./assets/star.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">4.5/5</p>
+                                </div>
+                            </div>
+                            <div class="mt-3.5 flex justify-between px-[20px]">
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/format-square.svg" alt="">
+                                    <p class="text-sm poppins-regular">529 sqft</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular">3</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/wifi.svg" alt="">
+                                    <p class="text-sm poppins-regular">10gb</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="w-1/4 flex-shrink-0 relative slider-item">
+                        <img src="./assets/slide-2.png" height="350px" alt="Item 1" class="w-full rounded-3xl">
+                        <div class="absolute bottom-0 left-0 w-full text-white z-50">
+                            <div class="flex justify-between items-center px-[20px]">
+                                <div>
+                                    <p class="text-xl poppins-bold">Party Every</p>
+                                    <p class="text-sm poppins-regular">$18,983/mo</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="./assets/star.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">4.5/5</p>
+                                </div>
+                            </div>
+                            <div class="mt-3.5 flex justify-between px-[20px]">
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/format-square.svg" alt="">
+                                    <p class="text-sm poppins-regular">529 sqft</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular">3</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/wifi.svg" alt="">
+                                    <p class="text-sm poppins-regular">10gb</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="w-1/4 flex-shrink-0 relative slider-item">
+                        <img src="./assets/slide-3.png" height="350px" alt="Item 1" class="w-full rounded-3xl">
+                        <div class="absolute bottom-0 left-0 w-full text-white z-50">
+                            <div class="flex justify-between items-center px-[20px]">
+                                <div>
+                                    <p class="text-xl poppins-bold">Brown Hall</p>
+                                    <p class="text-sm poppins-regular">$84,209/mo</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="./assets/star.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">4.5/5</p>
+                                </div>
+                            </div>
+                            <div class="mt-3.5 flex justify-between px-[20px]">
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/format-square.svg" alt="">
+                                    <p class="text-sm poppins-regular">529 sqft</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular">3</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/wifi.svg" alt="">
+                                    <p class="text-sm poppins-regular">10gb</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="w-1/4 flex-shrink-0 relative slider-item">
+                        <img src="./assets/slide-4.png" height="350px" alt="Item 1" class="w-full rounded-3xl">
+                        <div class="absolute bottom-0 left-0 w-full text-white z-50">
+                            <div class="flex justify-between items-center px-[20px]">
+                                <div>
+                                    <p class="text-xl poppins-bold">Mini Max</p>
+                                    <p class="text-sm poppins-regular">$14,221/mo</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="./assets/star.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">4.5/5</p>
+                                </div>
+                            </div>
+                            <div class="mt-3.5 flex justify-between px-[20px]">
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/format-square.svg" alt="">
+                                    <p class="text-sm poppins-regular">529 sqft</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular">3</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/wifi.svg" alt="">
+                                    <p class="text-sm poppins-regular">10gb</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="w-1/4 flex-shrink-0 relative slider-item">
+                        <img src="./assets/slide-1.png" height="350px" alt="Item 1" class="w-full rounded-3xl">
+                        <div class="absolute bottom-0 left-0 w-full text-white z-50">
+                            <div class="flex justify-between items-center px-[20px]">
+                                <div>
+                                    <p class="text-xl poppins-bold">De Flecce</p>
+                                    <p class="text-sm poppins-regular">$47,298/mo</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <img src="./assets/star.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">4.5/5</p>
+                                </div>
+                            </div>
+                            <div class="mt-3.5 flex justify-between px-[20px]">
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/format-square.svg" alt="">
+                                    <p class="text-sm poppins-regular">529 sqft</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular">3</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/wifi.svg" alt="">
+                                    <p class="text-sm poppins-regular">10gb</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="absolute top-1/4 -translate-y-1/2 z-50 w-full">
+                        <button onclick="prevSlide()" class="absolute -left-[20px]"><img src="./assets/btn arrow left.svg" alt=""></button>
+                        <button onclick="nextSlide()" class="absolute -right-[20px]"><img src="./assets/btn arrow right.svg" alt=""></button>
+                    </div>
+                </div>
+                                 
+            </div>
+        </div>
+
+        <div class="bg-primary-black text-white">
+            <div class="px-5 lg:px-[75px] py-[50px]">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-[28px] poppins-bold">Categoris</p>
+                        <p class="text-lg poppins-regular color-secondary-gray">We provide everything</p>
+                    </div>
+                    <button class="bg-primary-yellow w-[131px] h-[48px] text-black font-semibold rounded-full flex items-center justify-center">Explore All</button>
+                </div>
+                <div class="mt-[30px] grid grid-cols-2 lg:grid-cols-4 gap-[30px]" id="categories-item">
+                </div>
+            </div>
+        </div>
+
+        <div class="my-[100px] text-white lg:mx-[75px]">
+            <div class="flex flex-row gap-[97px]">
+                <div class="basis-1/3">
+                    <h3 class="text-[28px] poppins-bold">Huge Benefits That <br> Make You Feel Happier</h3>
+
+                    <ul class="mt-[30px]">
+                        <li class="flex items-center gap-3">
+                            <img src="./assets/tick-circle.svg" alt="">
+                            <p class="text-lg poppins-semibold">Checking faster without depositing</p>
+                        </li>
+                        <li class="flex items-center gap-3 mt-[20px]">
+                            <img src="./assets/tick-circle.svg" alt="">
+                            <p class="text-lg poppins-semibold">24/7 security guarding your place</p>
+                        </li>
+                        <li class="flex items-center gap-3 mt-[20px]">
+                            <img src="./assets/tick-circle.svg" alt="">
+                            <p class="text-lg poppins-semibold">Fast-internet access without lagging</p>
+                        </li>
+                        <li class="flex items-center gap-3 mt-[20px]">
+                            <img src="./assets/tick-circle.svg" alt="">
+                            <p class="text-lg poppins-semibold">High standard of layout of houses</p>
+                        </li>
+                        <li class="flex items-center gap-3 mt-[20px]">
+                            <img src="./assets/tick-circle.svg" alt="">
+                            <p class="text-lg poppins-semibold">All other benefits, we promise</p>
+                        </li>
+                    </ul>
+
+                    <div class="mt-[30px] flex gap-[14px]">
+                        <button class="bg-primary-yellow w-[157px] h-[48px] text-black font-semibold rounded-full flex gap-0.5 items-center justify-center">
+                            <img src="./assets/message-notif.svg" alt="">
+                            <span>Call Sales</span>
+                        </button>
+                        <button class="bg-primary-gray w-[138px] h-[48px] text-white font-semibold rounded-full flex items-center justify-center">All Benefits</button>
+                    </div>
+                </div>
+                <div class="basis-2/3 grid grid-cols-2 gap-[30px]">
+                    <div class="relative benefit-image">
+                        <img src="./assets/benefit-img-3.png" alt="" class="w-full rounded-[24px]">
+                        <div class="absolute bottom-[20px] left-0 w-full text-white z-50">
+                            <div class="flex gap-[40px] justify-between items-center p-[20px]">
+                                <div class="basis-2/3">
+                                    <p class="text-xl poppins-bold">House for Office and Living</p>
+                                </div>
+                                <div class="basis-1/3 flex gap-2 justify-end items-center">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">18,309</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative benefit-image">
+                        <img src="./assets/benefit-img-3.png" alt="" class="w-full rounded-[24px]">
+                        <div class="absolute bottom-[20px] left-0 w-full text-white z-50">
+                            <div class="flex gap-[40px] justify-between items-center p-[20px]">
+                                <div class="basis-2/3">
+                                    <p class="text-xl poppins-bold">House Nearby with Mall</p>
+                                </div>
+                                <div class="basis-1/3 flex gap-2 justify-end items-center">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">18,309</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative benefit-image">
+                        <img src="./assets/benefit-img-3.png" alt="" class="w-full rounded-[24px]">
+                        <div class="absolute bottom-[20px] left-0 w-full text-white z-50">
+                            <div class="flex gap-[40px] justify-between items-center p-[20px]">
+                                <div class="basis-2/3">
+                                    <p class="text-xl poppins-bold">House Historical Building</p>
+                                </div>
+                                <div class="basis-1/3 flex gap-2 justify-end items-center">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">18,309</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative benefit-image">
+                        <img src="./assets/benefit-img-3.png" alt="" class="w-full rounded-[24px]">
+                        <div class="absolute bottom-[20px] left-0 w-full text-white z-50">
+                            <div class="flex gap-[40px] justify-between items-center p-[20px]">
+                                <div class="basis-2/3">
+                                    <p class="text-xl poppins-bold">Landed House with Park</p>
+                                </div>
+                                <div class="basis-1/3 flex gap-2 justify-end items-center">
+                                    <img src="./assets/profile-user.svg" alt="">
+                                    <p class="text-sm poppins-regular m-0 p-0">18,309</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:mx-[75px] pb-[100px]">
+            <div class="text-center text-white">
+                <h3 class="text-[28px] poppins-bold">Happy Customers</h3>
+                <p class="text-ls poppins-regular color-secondary-gray">We’d love to come back again soon</p>
+            </div>
+
+            <div class="mt-[30px] text-white">
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-[30px]">
+                    <div class="flex flex-col gap-[30px]">
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">It’s just amazing, will be back.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[30px]">
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">Price was too low yet luxury.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[30px]">
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">It’s just amazing, will be back.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-primary-black rounded-[20px]">
+                            <div class="px-[20px] py-[16px]">
+                                <div class="flex gap-0.5">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+                                <p class="text-lg poppins-regular mt-[20px]">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
+                                <div class="mt-[20px] flex items-center gap-3">
+                                    <img src="./assets/avatar.png" alt="" class="w-[50px] h-[50px] rounded-full">
+                                    <div>
+                                        <p class="text-base poppins-semibold">Evelin Bie</p>
+                                        <p class="text-sm poppins-regular color-secondary-gray">Full-Time Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-primary-black">
+            <div class="py-[100px] px-[75px]">
+                <div class="flex gap-[100px]">
+                    <div class="flex flex-col gap-3">
+                        <h5 class="text-base poppins-semibold text-white">Solutions</h5>
+                        <p class="text-base poppins-regular color-secondary-gray">Credit Rewards</p>
+                        <p class="text-base poppins-regular color-secondary-gray">P2P Renting</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Open for Listing</p>
+                        <p class="text-base poppins-regular color-secondary-gray">AI Automation</p>
+                        <p class="text-base poppins-regular color-secondary-gray">APIs Developer</p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h5 class="text-base poppins-semibold text-white">Product</h5>
+                        <p class="text-base poppins-regular color-secondary-gray">Featured House</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Browse Categories</p>
+                        <p class="text-base poppins-regular color-primary-yellow">Special Awards</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Made-In Bandung</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Exclusive Style</p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h5 class="text-base poppins-semibold text-white">Company</h5>
+                        <p class="text-base poppins-regular color-secondary-gray">About</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Our Investors</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Missions 2024</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Careers</p>
+                        <p class="text-base poppins-regular color-secondary-gray">Media Press</p>
+                    </div>
+                    <div class="grow flex flex-col gap-3">
+                        <h5 class="text-base poppins-semibold text-white">Subscribe & Free Rewards</h5>
+                        <div class="h-[48px] w-full bg-primary-white rounded-full flex items-center overflow-hidden">
+                            <img src="./assets/sms.svg" alt="" class="ml-[20px] h-6">
+                            <input class="h-full w-full bg-transparent pl-[10px] focus:outline-none" type="text" placeholder="Email Address">
+                            <button class="h-full px-[24px] rounded-full bg-primary-yellow color-secondary-black poppins-semibold text-base">Subscribe</button>
+                        </div>
+                        <h5 class="text-base poppins-semibold text-white">Choose Language</h5>
+                        <div class="flex items-center gap-2">
+                            <img src="./assets/United Kingdom (GB).svg" alt="">
+                            <select class="bg-transparent text-white w-[120px] focus:outline-none">
+                                <option value=""><img src="./assets/sms.svg" alt=""> English (UK)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-[50px] h-px w-full bg-[#353535]"></div>
+                <div class="mt-[50px] flex justify-between items-center">
+                    <img src="./assets/logo.svg" alt="logo nidejia">
+                    <p class="text-base poppins-regular color-secondary-gray">All Rights Reserved Nidejia BuildWithAngga 2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

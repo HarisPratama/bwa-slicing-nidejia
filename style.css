@@ -1,0 +1,156 @@
+:root {
+    --primary-yellow: #FF9357;
+    --primary-gray: #323437;
+    --secondary-gray: #A8A8AB;
+    --primary-black: #141414;
+    --secondary-black: #010101;
+    --tertiary-black: #202020;
+    --primary-white: #F5F6F8;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-primary-black {
+    background-color: var(--primary-black);
+}
+.bg-secondary-black {
+    background-color: var(--secondary-black);
+}
+.bg-tertiary-black {
+    background-color: var(--tertiary-black);
+}
+.bg-primary-gray {
+    background-color: var(--primary-gray);
+}
+.bg-primary-yellow {
+    background-color: var(--primary-yellow);
+}
+.bg-primary-white {
+    background-color: var(--primary-white);
+}
+
+.color-primary-black {
+    color: var(--primary-black);
+}
+.color-secondary-black {
+    color: var(--secondary-black);
+}
+.color-primary-gray {
+    color: var(--primary-gray);
+}
+.color-secondary-gray {
+    color: var(--secondary-gray);
+}
+.color-primary-yellow {
+    color: var(--primary-yellow);
+}
+
+.p-30px {
+    padding: 30px;
+}
+.mt-30px {
+    margin-top: 30px;
+}
+.mt-50px {
+    margin-top: 50px;
+}
+.mt-100px {
+    margin-top: 100px;
+}
+.mx-75px {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.bd-20 {
+    border-radius: 20px;
+}
+
+.gap-30px {
+    gap: 30px;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-btn {
+    width: 102px;
+    height: 48px;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url('./assets/modern-architecture-generative-ai.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+
+.fs-55 {
+    font-size: 55px;
+}
+
+.hero-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.slider-item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 46%, #050211 87%);
+    border-radius: 24px;
+    z-index: 1;
+}
+
+.benefit-image::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 30.03%, #050211 100%);
+    border-radius: 24px;
+    z-index: 1;
+}
+
+
+  
